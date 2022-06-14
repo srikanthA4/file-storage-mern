@@ -1,0 +1,131 @@
+.file {
+  margin: 10px 0;
+  border-bottom: solid 2px #566885;
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 2fr);
+  align-items: center;
+  @media screen and (max-width: 1140px) {
+    margin: 5px 0;
+  }
+  @media screen and (max-width: 540px) {
+    grid-template-columns: 0.2fr 1fr repeat(4, 0.5fr);
+    width: 98%;
+  }
+
+}
+
+.file:hover {
+  transform: scale(1.02);
+}
+
+.file__img {
+  justify-self: center;
+}
+
+.file__date {
+  grid-column-start: 5;
+  justify-self: center;
+  @media screen and (max-width: 640px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 10px;
+  }
+}
+
+.file__size {
+  grid-column-start: 6;
+  justify-self: center;
+  @media screen and (max-width: 640px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 10px;
+  }
+}
+
+.file__btn {
+  display: none;
+}
+
+.file:hover .file__date {
+  grid-column-start: 3;
+}
+
+.file:hover .file__size {
+  grid-column-start: 4;
+}
+
+.file:hover .file__download {
+  grid-column-start: 5;
+  display: block;
+  border: none;
+  width: 70px;
+  margin: 0 auto;
+  cursor: pointer;
+  background: none;
+}
+
+.file:hover .file__delete {
+  grid-column-start: 6;
+  display: block;
+
+  border: none;
+  width: 70px;
+  margin: 0 auto;
+  cursor: pointer;
+  background: none;
+}
+
+
+.filePlate {
+  height: 170px;
+  width: 170px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 500px) {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.file__name {
+  word-wrap: anywhere;
+  margin-right: 3px;
+  @media screen and (max-width: 640px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 10px;
+  }
+}
+
+.filePlate__btns {
+  display: none;
+}
+
+.filePlate:hover .filePlate__btns {
+  display: flex;
+  margin: 1px 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.filePlate__btns__ico {
+  font-size: 22px;
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
+  }
+}
+
+.filePlate__img {
+  width: 100px;
+  height: 100px;
+  @media screen and (max-width: 500px) {
+    height: 60px;
+    width: 60px;
+  }
+}
