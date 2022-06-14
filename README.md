@@ -8,7 +8,7 @@ This is a web application where you can upload and store your files. First creat
 sorted, filtered and deleted. Saved files can later be downloaded to any of your own devices.
 
 You can open this application on this
-link [https://mern-cloud-disk-client.herokuapp.com/](https://mern-cloud-disk-client.herokuapp.com/)
+link [https://file-storage-mern.vercel.app/login]
 
 ## This application is made using MERN technologies such as: MongoDB, Express, React, NodeJs
 
@@ -51,7 +51,7 @@ Unit tests - Jest
 ## Backend:
 
 You can see code on this
-link [https://github.com/RamanSlinka/mern-cloud-disk-server](https://github.com/RamanSlinka/mern-cloud-disk-server)
+link [https://github.com/srikanthA4/file-storage-server]
 
 REST Api
 Registration on the server
