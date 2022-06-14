@@ -12,7 +12,7 @@ link [https://mern-cloud-disk-client.herokuapp.com/](https://mern-cloud-disk-cli
 
 ## This application is made using MERN technologies such as: MongoDB, Express, React, NodeJs
 
-Initially, you can register and create your account. After login there
+<!-- Initially, you can register and create your account. After login there
 ![registration](https://user-images.githubusercontent.com/80674763/173237717-9bb130a8-94a4-4ae5-baed-8887f115e41e.png)
 
 In the application, you can create your own folder
@@ -29,7 +29,7 @@ settings panel.
 ![filter](https://user-images.githubusercontent.com/80674763/173239667-d3f098f0-2c71-497d-8f48-ee1caafcad3a.png)
 
 Files uploaded to the application can be downloaded to your device or permanently deleted.
-![delete_dowload](https://user-images.githubusercontent.com/80674763/173239676-849e82c1-67ba-4eda-b4b4-229a6ac3095c.png)
+![delete_dowload](https://user-images.githubusercontent.com/80674763/173239676-849e82c1-67ba-4eda-b4b4-229a6ac3095c.png) -->
 
 ## Frontend :
 
