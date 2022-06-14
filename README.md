@@ -34,7 +34,7 @@ Files uploaded to the application can be downloaded to your device or permanentl
 ## Frontend :
 
 You can see code on this
-link [https://github.com/RamanSlinka/mern-cloud-disk](https://github.com/RamanSlinka/mern-cloud-disk)
+link [https://github.com/RamanSlinka/mern-cloud-disk](https://github.com/srikanthA4/file-storage-mern)
 
 React Hooks: useState, useEffect, useContext.
 React router. Page navigation. BrowserRouter, Route.
