@@ -28,7 +28,7 @@ const Navbar = () => {
             clearTimeout(searchTimeout)
         }
         dispatch(showLoader())
-        if (e.target.value !== '') {
+        if (e.target.value !== '')   {
             setSearchTimeout(setTimeout((value) => {
                 dispatch(searchFiles(value))
             }, 1000, e.target.value))
